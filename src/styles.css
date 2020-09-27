@@ -38,7 +38,7 @@ footer {
   padding: 3rem;
 }
 main {
-  height: 100vh;
+  height: 80vh;
 }
 .logo {
   font-family: 'Roboto Slab', serif;
@@ -55,7 +55,7 @@ main {
   grid-gap: 20px;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(5, 1fr);
-  height: 80%;
+  height: 100%;
   padding: 2rem 3rem;
 }
 
