@@ -58,3 +58,33 @@ main {
   padding: 2rem 3rem;
   height: 80%;
 }
+
+.small {
+  grid-row: span 1;
+  grid-column: span 1;
+  background: #d65780;
+}
+
+.medium {
+  background: #ccd7c5;
+  grid-row: span 2;
+  grid-column: span 2;
+}
+
+.large {
+  background: #c7a27c;
+  grid-row: span 3;
+  grid-column: span 3;
+}
+
+.wide {
+  background: #ee9480;
+  grid-row: span 2;
+  grid-column: span 3;
+}
+
+.tall {
+  background: #efd2cb;
+  grid-row: span 3;
+  grid-column: span 2;
+}
