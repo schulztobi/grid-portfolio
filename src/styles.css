@@ -59,6 +59,13 @@ main {
   height: 80%;
 }
 
+.grid-item {
+  align-items: center;
+  color: #3a405a;
+  display: flex;
+  justify-content: center;
+}
+
 .small {
   grid-row: span 1;
   grid-column: span 1;
